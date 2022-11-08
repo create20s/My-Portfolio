@@ -1,0 +1,43 @@
+.non-bullet{
+    list-style: none;
+}
+.inline{
+    display: inline;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.root{
+    -primary-colour:#3b82f6;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.fluid-container{
+    padding-right: 1rem;
+}
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.center-container{
+   max-width: 600px;
+   margin: auto;
+}
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.primary-link{
+    color: white;
+  background-color: #3b82f6;
+ 
+   border-radius: 12px;
+ 
+}
+.secondary-link{
+    color:#3b82f6;
+  border: 1px solid #3b82f6;
+  border-radius: 12px;
+};
