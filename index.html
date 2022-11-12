@@ -5,109 +5,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Welcome to my component library.</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, atque numquam nihil corporis libero
-        officiis.</p>
+    <!-- nav section  -->
 
-    <hr>
-
-    <h2>@Typograpphy</h2>
-
-    <h1>This is biggest heading</h1>
-    <h2>This is second biggest heading</h2>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, perspiciatis!</p>
-    <small>This is a smaller text</small>
-    <hr>
-
-    <h2>@container</h2>
-
-    <h3>Fluid container</h3>
-    <div class="fluid-container">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-
-    <h3>Center container</h3>
-    <div class="container center-container">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
-
-    <hr>
-
-    <h2>@Links</h2>
-    <a class="link primary-link" href="www.google.com">GOOGLE</a>
-    <a class="link secondary-link" href="www.google.com">Youtube</a>
-    <hr>
-    <h2>@Lists</h2>
-    <h3>unordered list</h3>
-    <ul class="non-bullet">
-        <li>item one</li>
-        <li>item two</li>
-        <li>item three</li>
-    </ul>
-    <h3>unordered inline list</h3>
-    <ul class="non-bullet">
-        <li class="inline">inline item one</li>
-        <li class="inline">inline item two</li>
-        <li class="inline">inline item three</li>
-    </ul>
-
-    <h3>reverse unorder list</h3>
-
-    <ol>
-        <li>audi</li>
-        <li>bmw</li>
-        <li>mercedes</li>
-    </ol>
-
-
-    <hr>
-    <h2>@nav</h2>
     <nav class="navigation-container">
-        <div class="nav-text">carbrand website</div>
+        <div class="nav-text">Portfolio Website</div>
         <ul class="non-bullet align">
             <li class="inline">
                 <a class="link nav-colour link-active" href="/">home</a>
             </li>
-            <li class="inline"> <a class="link nav-colour" href="/">products</a></li>
-            <li class="inline"> <a class="link nav-colour" href="/">about</a></li>
+            <li class="inline"> <a class="link nav-colour" href="/projects.html">Projects</a></li>
+            <li class="inline"> <a class="link nav-colour" href="/blogs.html">Blogs</a></li>
         </ul>
     </nav>
 
-    <hr>
+    <!-- header section under nav -->
 
-    <h2>@header</h2>
+
     <header class="hero">
         <img class="hero-image" src="images/heroimage.png" alt="">
         <h1 class="hero-heading">Sagar Chaudhuri the <span class="heading-span">web devoloper</span></h1>
     </header>
+ 
+<!-- section part 1 -->
 
-    <hr>
-    <h2>@section</h2>
-    <section class="section">
-        <h3>new cars</h3>
-        <p>only new care are here</p>
+<section class="section">
+    <div class="container center-container">
+        <h1>Technologies</h1>
+        <p>I am familier with HTML, CSS, JAVASCRIPT, MONGO DB EXPRESS, REACT, NODE JS, GIT GIT-HUB</p>
+ </div>
+   
+  
+</section>
 
-    </section>
-    <section class="section">
-        <h3>ols cars</h3>
-        <p>only new care are here</p>
+<!-- section part 2 -->
 
-    </section>
-    <hr>
-    <h2>@footer</h2>
-    <footer>
-        <div>heading inside footer</div>
-        <ul>
-            <li>car one</li>
-            <li>car two</li>
-            <li>car three</li>
-        </ul>
-    </footer>
+<section class="section ow">
+    <div class="container center-container">
+        <h1>Projects</h1>
+        <p>I'll showcase my projects on my portfolio and thus, you can browse my work here.</p>
+
+        <a class="link primary-link" href="/projects.html">See Projects</a>
+ </div>
+   
+  
+</section>
+
+<!-- section part 3 -->
+
+<section class="section">
+    <div class="container center-container">
+        <h1>Blogs</h1>
+       <p>I'll write blogs about my coding journey and put it on this site. I'll try to share codes with some explanation </p>
+       <a class="link secondary-link" href="/blogs.html">See Blogs</a>
+ </div>
+   
+</section>
 
 
-    <div style="height: 30vh;"></div>
+<!-- footer section -->
+
+
+
+<footer class="footer">
+    <div class="footer-header">Social Media Presance</div>
+    <ul class="footer-links non-bullet">
+     <li class="inline"><a class="link ft-colour" href="https://github.com/create20s">GitHub</a></li>
+     <li class="inline"><a class="link ft-colour" href="">Twitter</a></li>
+     <li class="inline"><a class="link ft-colour" href="">LinkdIn</a></li>
+    </ul>
+</footer>
 </body>
 
 </html>
