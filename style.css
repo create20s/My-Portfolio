@@ -129,3 +129,13 @@ body{
     padding: 0.5rem  0rem;
     font-weight: bold;
 }
+
+ /* padding for project page small and p  */
+
+ .padding-p{
+     padding: 12px 0px 21px 0px;
+ }
+
+.project-li{
+    margin-top: 3rem;
+}
