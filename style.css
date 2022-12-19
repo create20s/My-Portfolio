@@ -27,7 +27,7 @@ body{
    padding: 0rem 1rem;
 }
 .center-container{
-   max-width: 612px;
+   max-width: 580px;
    margin: auto;
 }
 .link{
@@ -138,4 +138,20 @@ body{
 
 .project-li{
     margin-top: 3rem;
+}
+
+
+.blog-centercontainer{
+    max-width: 655px;
+    margin: auto;
+ }
+
+ .blog-container{
+    padding: 0rem 1rem;
+ }
+
+.blog-hero-image{
+    width: 600px;
+    display: block;
+    margin: auto;
 }
